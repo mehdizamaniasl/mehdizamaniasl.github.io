@@ -1,1 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <title>Research | Mehdi Zamani</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            line-height: 1.7;
+            color: #222;
+            background: #f7f8fa;
+        }
+
+        header {
+            background: #15324a;
+            color: white;
+            padding: 45px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin-bottom: 8px;
+        }
+
+        nav {
+            background: white;
+            padding: 15px;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+        }
+
+        nav a {
+            margin: 0 15px;
+            color: #15324a;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #2878a9;
+        }
+
+        main {
+            max-width: 950px;
+            margin: auto;
+            padding: 35px 20px;
+        }
+
+        section {
+            background: white;
+            margin-bottom: 25px;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+        }
+
+        h2 {
+            color: #15324a;
+            margin-top: 0;
+        }
+
+        h3 {
+            color: #2878a9;
+        }
+
+        .research-image {
+            display: block;
+            max-width: 100%;
+            margin: 20px auto;
+            border-radius: 6px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            color: #666;
+        }
+
+        @media (max-width: 600px) {
+            nav a {
+                display: inline-block;
+                margin: 6px 8px;
+            }
+
+            section {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Research</h1>
+    <p>Small-Scale Mixing in Turbulent Flows</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="research.html">Research</a>
+    <a href="publications.html">Publications</a>
+    <a href="documents/cv.pdf">CV</a>
+</nav>
+
+<main>
+
+    <section>
+        <h2>Research Overview</h2>
+
+        <p>
+            My research focuses on the physical mechanisms governing
+            small-scale mixing in turbulent flows. I combine advanced
+            experimental diagnostics with direct numerical simulations to
+            study the transport, deformation and dissipation of passive
+            scalars.
+        </p>
+
+        <p>
+            My current PhD research at ZARM, University of Bremen, investigates
+            mixing in an upscaled T-mixer. The work combines simultaneous
+            particle image velocimetry and planar laser-induced fluorescence
+            measurements with numerical simulations.
+        </p>
+    </section>
+
+    <section>
+        <h2>Experimental Investigation of a T-Mixer</h2>
+
+        <p>
+            I use simultaneous particle image velocimetry (PIV) and planar
+            laser-induced fluorescence (PLIF) to measure the velocity and
+            concentration fields in an upscaled T-mixer.
+        </p>
+
+        <p>The main objectives are to:</p>
+
+        <ul>
+            <li>Characterize the formation and deformation of scalar sheets.</li>
+            <li>Measure scalar variance and scalar-gradient statistics.</li>
+            <li>Examine turbulent scalar-flux transport.</li>
+            <li>Investigate the viscous-convective spectral range.</li>
+            <li>Assess the influence of inlet conditions on mixing.</li>
+        </ul>
+
+        <!-- Add an image later by removing the comment marks:
+        <img
+            src="images/tmixer-experiment.jpg"
+            alt="Experimental T-mixer and PIV-PLIF setup"
+            class="research-image"
+        >
+        -->
+    </section>
+
+    <section>
+        <h2>Direct Numerical Simulation of T-Mixer Flow</h2>
+
+        <p>
+            Direct numerical simulations are performed using Nek5000 to
+            investigate turbulent mixing at different Reynolds and Schmidt
+            numbers. These simulations provide three-dimensional velocity and
+            scalar fields that complement the planar experimental measurements.
+        </p>
+
+        <p>The simulations are used to study:</p>
+
+        <ul>
+            <li>Scalar variance and scalar-dissipation rates.</li>
+            <li>Schmidt-number effects on mixing dynamics.</li>
+            <li>Creation and deformation of scalar interfaces.</li>
+            <li>Effective diffusivity in the jet region.</li>
+            <li>Velocity-gradient and scalar-gradient alignment.</li>
+        </ul>
+
+        <!-- Example:
+        <img
+            src="images/tmixer-dns.jpg"
+            alt="Scalar field obtained from T-mixer DNS"
+            class="research-image"
+        >
+        -->
+    </section>
+
+    <section>
+        <h2>Homogeneous Isotropic Turbulence</h2>
+
+        <p>
+            I am also developing GPU-accelerated pseudo-spectral simulations
+            of passive-scalar mixing in homogeneous isotropic turbulence.
+            Large ensembles of simulations are used to investigate the
+            statistical evolution of localized scalar structures.
+        </p>
+
+        <p>
+            This work focuses on scalar intermittency, mixing time,
+            scalar-gradient amplification, geometrical alignment and the
+            effects of the Schmidt number.
+        </p>
+    </section>
+
+    <section>
+        <h2>Research Methods</h2>
+
+        <ul>
+            <li>Particle image velocimetry (PIV)</li>
+            <li>Planar laser-induced fluorescence (PLIF)</li>
+            <li>Simultaneous velocity–scalar measurements</li>
+            <li>Direct numerical simulation using Nek5000</li>
+            <li>GPU-based pseudo-spectral simulation</li>
+            <li>Statistical and spectral turbulence analysis</li>
+        </ul>
+    </section>
+
+</main>
+
+<footer>
+    <p>© 2026 Mohammad Mehdi Zamani Asl</p>
+</footer>
+
+</body>
+</html>
